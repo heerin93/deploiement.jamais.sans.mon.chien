@@ -1,0 +1,163 @@
+header {
+    background-color: #ed6107;
+    justify-items : center;
+    font-family : "Patrick Hand";
+}
+
+body {
+    background-color: #edac56;
+    font-family: "Indie Flower";
+    
+}
+
+.formulaireContainer {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.formulaireDeConnexion , .formulaireDInscription {
+    width: 50%; 
+    display: flex;
+    flex-direction: column;
+}
+
+.logo {
+    height: 120px;
+    width: 120px;
+    border-radius: 60%;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 400px;
+}
+#remember {
+    width: auto;
+}
+
+#connexion , #inscrire {
+    text-align: center;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.dividerVertical {
+    border-left : 2px solid black;
+    height: 500px;
+}
+
+.footer {
+    position: fixed;
+    background-color: #ed6107;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+}
+
+#commentaire {
+    height: 15em;
+}
+
+/*body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  */
+  .navbar {
+    background-color: #333;
+    padding: 10px 20px;
+
+  }
+  
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .menu > li {
+    position: relative;
+  }
+  
+  .menu > li > a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  .menu > li > a:hover {
+    background-color: #575757;
+  }
+  
+  .submenu {
+    list-style: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #444;
+    margin: 0;
+    padding: 0;
+    display: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .submenu li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+  }
+  
+  .submenu li :hover {
+    background-color: #575757;
+  }
+  
+  /* Affichage du sous-menu au survol */
+  .dropdown:hover .submenu {
+    display: block;
+  }
+  
+  .container {
+    padding-top: 150px;
+    margin-left: 50px;
+    display : flex;
+    flex-direction: column;
+    align-self: space-evenly ;
+    height: 181px;
+    width: 160px;
+  }
+
+  .welcome-section {
+    text-align: top;
+  }
+  
+  .highlights {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 70%; 
+  }
+  
+  .highlight img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+
+  .mainContainer {
+    display: flex;
+    gap: 20px;
+  }
+  

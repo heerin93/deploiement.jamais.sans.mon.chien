@@ -1,0 +1,16 @@
+.welcome-section {
+  text-align: center;
+  padding: 20px;
+}
+
+.highlights {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+
+.highlight img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
