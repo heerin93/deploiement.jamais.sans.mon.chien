@@ -160,4 +160,8 @@ h1 {
     display: flex;
     gap: 20px;
   }
+
+ .texteAcceuil {
+     display : flex ;
+}
   
